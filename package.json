@@ -4,7 +4,7 @@
   "description": "A custom app for the Jitsi Videobridge",
   "repository": {
     "type": "git",
-    "url": "git://github.com/wurdalak007/jitsi.git"
+    "url": "https://github.com/wurdalak007/jitsi.git"
   },
   "keywords": [
     "jingle",
@@ -140,13 +140,9 @@
   },
   "license": "Apache-2.0",
   "scripts": {
-    "lint": "eslint . && flow",
     "postinstall": "jetify",
     "validate": "npm ls"
   },
-  "pre-commit": [
-    "lint"
-  ],
   "browser": {
     "jQuery-Impromptu": "jQuery-Impromptu/src/jquery-impromptu.js"
   }
