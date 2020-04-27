@@ -197,7 +197,6 @@
     box-sizing: border-box;
     color: white;
     margin-top: 3px;
-    max-width: 100%;
     position: relative;
 
     &.localuser {
@@ -350,7 +349,6 @@
     }
 
     .chatmessage-wrapper {
-        max-width: 100%;
 
         .replywrapper {
             display: flex;

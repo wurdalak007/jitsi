@@ -67,7 +67,7 @@
             border: $thumbnailsBorder solid transparent;
             padding-left: 0;
             transition: right 2s;
-            width: 100%;
+            width: 200%;
         }
     }
 
@@ -121,6 +121,7 @@
             .videocontainer {
                 height: 0px;
                 width: 100%;
+                padding-top: 56% !important;
             }
         }
     }
@@ -151,6 +152,8 @@
 .filmstrip-only .vertical-filmstrip {
     .filmstrip {
         flex-direction: row-reverse;
+        max-width: 100% !important;
+        align-items: flex-start;
     }
     .filmstrip__videos-filmstripOnly {
         margin-top: auto;
@@ -163,6 +166,10 @@
             bottom: 0px;
         }
     }
+}
+
+.tOoji {
+    background: none transparent !important;
 }
 
 /**
